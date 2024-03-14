@@ -67,9 +67,12 @@ void display() {
 
 }
 
-int main()
-{
-    
+int main() {
+	input(); // call the input function to get user input
+	insertionSort();  //call the selection sort function
+	display();   // display the sorted array
+
+	return 0;
 }
 
 
